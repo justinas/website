@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  {{ partial "meta.html" . }}
+
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}css/main.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}css/github.css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="{{ .Site.BaseUrl }}images/favicon.ico" />
+  <link rel="apple-touch-icon" href="{{ .Site.BaseUrl }}images/apple-touch-icon.png" />
+  {{ if eq .Url "/" }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+</head>
+<body>
+  <header class="global-header">
+    <section class="header-text">
+      <h1><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
+      {{ with .Site.Params.subtitle }}
+      <div class="tag-line">
+        {{ . }}
+      </div>
+      {{ end }}
+      {{ partial "link.html" . }}
+      {{ if ne .Url "/" }}
+      <a href="{{ .Site.BaseUrl }}" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left"></i>
+        &nbsp;Home
+      </a>
+      {{ end }}
+      {{ with .RSSLink }}
+      <a href="{{ . }}" class="btn-header btn-subscribe hidden-xs">
+        <i class="fa fa-rss"></i>
+        &nbsp;Subscribe
+      </a>
+      {{ end }}
+    </section>
+  </header>
+  <main class="container">
