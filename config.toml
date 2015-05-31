@@ -1,0 +1,19 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+baseurl = "http://vilniusgolang.github.io/"
+languageCode = "en-us"
+title = "Vilnius Gophers"
+copyright = "&copy; LT Gophers"
+
+[params]
+  twitter = "vilniusgolang"
+  github = "vilniusgolang"
+  # Google Analytics API key.
+  ga_api_key = "UA-63463595-1"
+  contact = "mailto:vilniusgolang@gmail.com"
+  bio = "Your short bio/tagline"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "Golang programming language meetups in Lithuania."
+  themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
