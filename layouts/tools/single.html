@@ -9,6 +9,9 @@
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHtml }}">
           {{ .Date.Format "Jan 2, 2006" }}
         </time>
+        <p><a href="{{ .Params.toolurl }}" target="_blank" title="Tool URL">
+            <i class="fa fa-external-link"></i> URL
+        </a></p>
       </div>
       <div class="pull-right">
         {{ range .Params.tags }}
