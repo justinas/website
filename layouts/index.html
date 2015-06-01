@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 <div class="article-list">
-  {{ range $index, $page := .Site.Pages }}
+  {{ range $index, $page := where .Data.Pages "Section" "posts" }}
   {{ if ne $index 0 }}
   <hr/>
   {{ end }}
@@ -8,4 +8,3 @@
   {{ end }}
 </div>
 {{ partial "footer.html" . }}
-
