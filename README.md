@@ -63,7 +63,7 @@ title = "Tool Name"
 +++
 ```
 
-3) Please add additional meta data (where to find that tool)
+3) Please add additional meta data (where to find that tool) [example](https://raw.githubusercontent.com/vilniusgolang/website/master/content/tools/phony.md)
 
 ```toml
 toolurl = "https://github.com/vilniusgolang"
