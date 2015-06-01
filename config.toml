@@ -10,6 +10,7 @@ copyright = "&copy; LT Gophers"
 [params]
   twitter = "vilniusgolang"
   github = "vilniusgolang"
+  calendar = "www.meetup.com/Vilnius-Golang/events/ical/"
   # Google Analytics API key.
   ga_api_key = "UA-63463595-1"
   contact = "mailto:vilniusgolang@gmail.com"

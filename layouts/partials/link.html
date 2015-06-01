@@ -34,4 +34,9 @@
     <i class="fa fa-linkedin"></i>
   </a>
   {{ end }}
+  {{ with .Site.Params.calendar}}
+  <a href="webcal://{{ . }}" target="_blank">
+    <i class="fa fa-calendar"></i>
+  </a>
+  {{ end }}
 </div>
