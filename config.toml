@@ -6,6 +6,7 @@ baseurl = "http://vilniusgolang.github.io/"
 languageCode = "en-us"
 title = "Vilnius Gophers"
 copyright = "&copy; LT Gophers"
+disqusshortname = "vilniusgolang"
 
 [params]
   twitter = "vilniusgolang"
