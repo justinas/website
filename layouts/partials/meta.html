@@ -3,8 +3,8 @@
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 {{ else }}
-<meta name="description" content="{{ .Description }}..." />
-<meta property="og:description" content="{{ .Description }}..." />
+<meta name="description" content="Lithuania Golang community meetup's in Vilnius city. Presentations, talks, discussion, drink up's & code party's. Follow on Twitter @vilniusgolang." />
+<meta property="og:description" content="Lithuania Golang community meetup's in Vilnius city. Presentations, talks, discussion, drink up's & code party's. Follow on Twitter @vilniusgolang." />
 {{ end }}
 <meta name="keywords" content="{{ delimit .Keywords ", " }}" />
 <meta property="og:title" content="{{ if ne .Url "/" }}{{ .Title }} &middot; {{ end }} {{ .Site.Title }}" />
