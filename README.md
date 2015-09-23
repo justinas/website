@@ -47,26 +47,3 @@ keywords = "golang meetups Lithuania golang Vilnius meetups"
 ```
 
 4) Submit Pull Request
-
-### Tools
-
-1) hugo new tools/TOOLNAME.md
-
-2) This will generate e.g.:
-
-```toml
-+++
-categories = ["development", "tools"]
-date = "2015-06-01T20:24:10+03:00"
-tags = ["tools", "cli", "development"]
-title = "Tool Name"
-+++
-```
-
-3) Please add additional meta data (where to find that tool) [example](https://raw.githubusercontent.com/vilniusgolang/website/master/content/tools/phony.md)
-
-```toml
-toolurl = "https://github.com/vilniusgolang"
-```
-
-4) Submit Pull Request
