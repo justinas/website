@@ -1,4 +1,9 @@
 <div class="sns-links hidden-print">
+  {{ with .Site.Params.calendar}}
+  <a href="webcal://{{ . }}" target="_blank" title="Web ICAL calendar">
+    <i class="fa fa-calendar"></i>
+  </a>
+  {{ end }}
   <a href="https://github.com/vilniusgolang/presentations" target="_blank">
     <i class="fa fa-slideshare"></i>
   </a>
@@ -35,11 +40,6 @@
   {{ with .Site.Params.linkedin }}
   <a href="https://linkedin.com/in/{{ . }}" target="_blank">
     <i class="fa fa-linkedin"></i>
-  </a>
-  {{ end }}
-  {{ with .Site.Params.calendar}}
-  <a href="webcal://{{ . }}" target="_blank">
-    <i class="fa fa-calendar-o"></i>
   </a>
   {{ end }}
 </div>
