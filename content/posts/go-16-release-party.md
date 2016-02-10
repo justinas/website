@@ -1,6 +1,6 @@
 +++
 categories = ["golang", "community"]
-date = "2016-02-09T12:10:00+02:00"
+date = "2016-02-10T18:30:00+02:00"
 tags = ["vilnius", "lithuania", "golang", "community", "meetup"]
 title = "Go 1.6 release party"
 
