@@ -9,7 +9,7 @@ title = "Go 1.6 release party"
 ### Hey Gophers !!
 
 Go 1.6 is expected to ship mid-February
-and we are happy to anounce we are joining
+and we are happy to announce we are joining
 the global community by hosting a release party in Vilnius.
 
 ### Agenda
