@@ -22,6 +22,10 @@ We are looking for more speakers. If you would like to do a talk,
 please post on the
 [Github issue](https://github.com/vilniusgolang/website/issues/4) of this event.
 
+#### Links:
+ - [Meetup.com](http://www.meetup.com/Vilnius-Golang/events/228751719/)
+ - [ICAL](webcal://www.meetup.com/Vilnius-Golang/events/ical) add to your calendar
+
 ### When ?
 
 February 17th, 18:30
